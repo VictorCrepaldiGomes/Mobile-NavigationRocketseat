@@ -8,7 +8,7 @@ type PProps = TouchableOpacityProps & {
 export function Button({ children, iconName, ...rest }: PProps) {
     return (
         <TouchableOpacity {...rest}>
-            <MaterialIcons name={iconName} size={24} />
+            <MaterialIcons name={iconName} size={32} />
         </TouchableOpacity>
     );
 }
