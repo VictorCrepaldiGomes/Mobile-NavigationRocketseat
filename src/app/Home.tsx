@@ -8,6 +8,13 @@ export default function Home({ navigation }: any) {
   return (
     <View style={{ flex: 1, padding: 32, paddingTop: 64 }}>
       <Header>
+         <Button
+          iconName="menu"
+          // onPress={() => navigation.navigate("Product", { id: "7" })}
+          onPress={() => navigation.toggleDrawer()}
+        >
+          New
+        </Button>
         <Title>Home</Title>
         <Button
           iconName="add-circle"
